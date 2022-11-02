@@ -49,7 +49,7 @@ def parse_annotation(annotation_path):
     return {'boxes': boxes, 'labels': labels, 'difficulties': difficulties}
 
 
-def create_data_lists(voc07_path="../datasets/VOCdevkit/VOC2007", voc12_path="../datasets/VOCdevkit/VOC2012", output_folder="../datasets/voc"):
+def create_data_lists(voc07_path="../datasets/VOCdevkit/VOC2007", voc12_path="../datasets/VOCdevkit/VOC2012", output_folder="../datasets"):
     """
     Create lists of images, the bounding boxes and labels of the objects in these images, and save these to file.
 
